@@ -162,4 +162,13 @@ $$
 ![](../static/images/bias-variance.png)
 
 ###剩余问题
-- 回归的性能度量应该不止MSE，探讨一下当使用其他度量(如MAE)时对学习算法的影响。
+回归的性能度量应该不止MSE，探讨一下当使用其他度量(如MAE)时对学习算法的影响。
+
+A. Metrics: [Abhishek's blog](http://blog.kaggle.com/2016/07/21/approaching-almost-any-machine-learning-problem-abhishek-thakur/)中提到了一些其他的分类Metrics，如
+
+-  Binary: ROC AUC or simply AUC
+-  Multi-label or multi-class: categorical cross-entropy or multiclass log loss
+
+B. 对Outlier的影响：有的对异常点鲁棒性较强，有的较弱
+
+C. 如何从概率分布的角度对Metrics进行解释?
