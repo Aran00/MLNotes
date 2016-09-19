@@ -40,6 +40,8 @@ $$E(f;D)=\frac{1}{m} \sum_{i=1}^m (f(\textbf x_i)-y_i)^2$$
 or
 $$E(f;D)=\int_{\textbf x \sim D}(f(\textbf x)-y)^2 p(\textbf x)d\textbf x$$
 
+*可添加其他的指标，并探讨不同的指标有何影响*
+
 ####分类任务
 #####错误率和精度
 $$E(f;D)=\frac{1}{m} \sum_{i=1}^m I(f(\textbf x_i) \neq y_i)$$
